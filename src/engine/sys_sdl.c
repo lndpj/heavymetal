@@ -324,8 +324,8 @@ static int SDL_ScancodeToKey(SDL_Scancode sc, SDL_Keymod mod) {
                 return '1' + (sc - SDL_SCANCODE_1);
             if (sc == SDL_SCANCODE_0)
                 return '0';
-            if (sc == SDL_SCANCODE_MINUS)    return '-';
-            if (sc == SDL_SCANCODE_EQUALS)   return '=';
+            if (sc == SDL_SCANCODE_MINUS)    return (mod & SDL_KMOD_SHIFT) ? '_' : '-';
+            if (sc == SDL_SCANCODE_EQUALS)   return (mod & SDL_KMOD_SHIFT) ? '+' : '=';
             if (sc == SDL_SCANCODE_LEFTBRACKET)  return '[';
             if (sc == SDL_SCANCODE_RIGHTBRACKET) return ']';
             if (sc == SDL_SCANCODE_BACKSLASH)    return '\\';
