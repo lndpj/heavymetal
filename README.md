@@ -103,8 +103,14 @@ your_install/
 
 | Project | Description |
 |---------|-------------|
+| [fakk2-v14](https://www.moddb.com/mods/heavy-metal-fakk2-patch-v14) | Official Patch v1.4 |
 | [fakk2-sdk](https://github.com/a1batross/fakk2-sdk) | Official FAKK2 SDK (game logic source), builds on modern systems |
 | [fakk2-rework](https://github.com/Sporesirius/fakk2-rework) | Modernization effort (CMake, Vulkan goals) |
+| [fakk2-remastered](https://www.nexusmods.com/games/heavymetalfakk2) | Fully remastered game - Textures - Restored |
+| [fakk2-retextured](https://www.moddb.com/mods/heavy-metal-fakk-2-retextured) | High resolution texture pack |
+| [fakk2-boogie](https://www.moddb.com/games/heavy-metal-fakk-2/addons/heavy-metal-fakk-2-between-heaven-and-hell) | Unofficial expansion pack: Between Heaven And Hell |
+| [fakk2-mission](https://www.moddb.com/games/heavy-metall-fakk-2/addons/heavy-metal-fakk-2-the-mission) | Single-Player Campaign |
+| [fakk2-rumrunners](https://www.moddb.com/games/heavy-metall-fakk-2/addons/rum-runners) | Total Conversion |
 | [ioquake3](https://github.com/ioquake/ioq3) | Community id Tech 3 fork (base engine reference) |
 | [sof-recomp](https://github.com/sp00nznet/sof) | Soldier of Fortune recomp (sister project, id Tech 2) |
 
